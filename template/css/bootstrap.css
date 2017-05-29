@@ -187,16 +187,14 @@ td,
 th {
   padding: 0;
 }
-ul {
-  width: 100%;
-}
 li {
   list-style-type: none;
-  padding: 0.3em;
+  padding: 0.3em 1em;
   border-top: 0.05em #999 dashed;
   margin-left: 0 !important;
 }
 li:hover {
+  cursor: pointer;
   background: #e7e7e7;
 
 }
@@ -240,7 +238,6 @@ li:hover {
   }
   img {
     max-width: 100% !important;
-    width: 100%;
   }
   p,
   h2,
@@ -291,7 +288,7 @@ li:hover {
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+};
 .glyphicon-asterisk:before {
   content: "\002a";
 }
@@ -1079,6 +1076,7 @@ li:hover {
 .glyphicon-menu-up:before {
   content: "\e260";
 }
+.glyphicon:hover { color: #8cc447; }
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -4972,9 +4970,11 @@ a.badge:focus {
 .jumbotron {
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-left: 5em;
   margin-bottom: 30px;
   color: inherit;
   background-color: #eee;
+  background: url('../img/header3.jpg') 100%;
 }
 .jumbotron h1,
 .jumbotron .h1 {

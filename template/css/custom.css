@@ -1,0 +1,84 @@
+/* Custom CSS */
+footer {
+  padding: 1em;
+  text-align: center;
+  font-size: 80%;
+}
+
+.dadin-content ul {
+  margin-left: 1em;
+}
+
+.dadin-content li {
+  border: none;
+  margin-left: none;
+  list-style-type: square;
+}
+
+.dadin-content li:hover {
+  background-color: white;
+}
+
+.dadin-content .dadin-docentes {
+  width: 100%;
+}
+
+.dadin-content .dadin-docentes .dadin-item {
+  width: 19%;
+  margin: 0.5%;
+  float: left;
+  cursor: pointer;
+  background: #ccc;
+}
+
+.dadin-content .dadin-docentes .dadin-item img {
+  width: 100%;
+}
+
+.dadin-content .dadin-galeria {
+  width: 100%;
+}
+
+.dadin-content .dadin-galeria .dadin-item {
+  width: 24%;
+  margin: 0.5%;
+  float: left;
+  cursor: pointer;
+  background: #ccc;
+}
+
+.dadin-content .dadin-galeria .dadin-item img {
+  width: 100%;
+}
+
+.dadin-menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+.dadin-menu li {
+  list-style-type: none;
+  padding: 0.3em 1em;
+  border-top: 0.05em #999 dashed;
+  margin-left: 0 !important;
+  width: 100%;
+}
+
+.dadin-menu li:hover {
+  cursor: pointer;
+  background: #e7e7e7;
+}
+
+.dadin-menu a {
+  color: #333;
+  text-decoration: none;
+}
+.dadin-menu a:hover,
+.dadin-menu a:focus {
+  color: #333;
+  text-decoration: none;
+}
+.dadin-menu a:focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}

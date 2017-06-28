@@ -187,17 +187,6 @@ td,
 th {
   padding: 0;
 }
-li {
-  list-style-type: none;
-  padding: 0.3em 1em;
-  border-top: 0.05em #999 dashed;
-  margin-left: 0 !important;
-}
-li:hover {
-  cursor: pointer;
-  background: #e7e7e7;
-
-}
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
   *,
@@ -6770,5 +6759,3 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
-
-

@@ -7,6 +7,15 @@ footer {
 
 .dadin-content {
   padding: 0 30px;
+  padding-right: 15%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.dadin-content h1, .dadin-content h2, .dadin-content h3,
+.dadin-content h4, .dadin-content h5, .dadin-content h6 {
+  font-family: 'Zilla Slab', serif;
+  font-weight: 600;
+  font-style: italic;
 }
 
 .dadin-content ul {
@@ -63,7 +72,7 @@ footer {
 .dadin-menu li {
   list-style-type: none;
   padding: 0.3em 4em;
-  border-top: 0.05em #999 dashed;
+  border-top: 0.05em #ccc solid;
   margin-left: 0 !important;
   width: 100%;
 }
@@ -71,7 +80,7 @@ footer {
 .dadin-menu-2 li {
   list-style-type: none;
   padding: 0.3em 1em;
-  border-top: 0.05em #999 dashed;
+  border-top: 0.05em #ccc solid;
   margin-left: 0 !important;
   width: 100%;
 }

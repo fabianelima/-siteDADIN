@@ -5,10 +5,12 @@ footer {
   font-size: 80%;
 }
 
+.jumbotron img {
+  width: 35%;
+}
+
 .dadin-content {
-  padding: 0 30px;
-  padding-right: 15%;
-  font-family: 'Open Sans', sans-serif;
+  padding: 0 10%;
 }
 
 .dadin-content h1, .dadin-content h2, .dadin-content h3,
@@ -64,6 +66,14 @@ footer {
   width: 100%;
 }
 
+.dadin-menu, .dadin-menu-2 {
+  margin-top: 0;
+}
+
+.dadin-menu li:nth-child(1), .dadin-menu-2 li:nth-child(1) {
+  border-top: none;
+}
+
 .dadin-menu ul {
   margin: 0;
   padding: 0;
@@ -71,7 +81,8 @@ footer {
 
 .dadin-menu li {
   list-style-type: none;
-  padding: 0.3em 4em;
+  padding: 0.3em;
+  padding-left: 42%;
   border-top: 0.05em #ccc solid;
   margin-left: 0 !important;
   width: 100%;
@@ -102,4 +113,56 @@ footer {
 .dadin-menu a:focus {
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
+}
+
+.dadin-menu-mobile {
+  display: none;
+  background: #404040;
+  padding: 2% 10%;
+  font-size: 2em;
+  cursor: pointer;
+  color: white;
+}
+
+.dadin-menu-mobile:hover {
+  color: #8BC53F;
+}
+
+.dadin-menu-mobile-options {
+  height: 0;
+  overflow: hidden;
+  font-size: 0.7em;
+}
+
+.dadin-menu-mobile-options li {
+  list-style-type: none;
+  padding: 0.3em;
+  padding-left: 2em;
+  border-top: 0.05em #535353 solid;
+  margin-left: 0 !important;
+  width: 100%;
+}
+
+.dadin-menu-mobile li:hover {
+  cursor: pointer;
+  background: #535353;
+}
+
+.dadin-menu-mobile a {
+  color: #e7e7e7;
+  text-decoration: none;
+}
+.dadin-menu-mobile a:hover,
+.dadin-menu-mobile a:focus {
+  color: #e7e7e7;
+  text-decoration: none;
+}
+
+@media (max-width:991px) {
+  .dadin-menu-left, .dadin-agenda {
+    display: none;
+  }
+  .dadin-menu-mobile {
+    display: block;
+  }
 }
